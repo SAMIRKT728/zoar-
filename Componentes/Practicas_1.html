@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Css/practicas.css">
+</head>
+<body>
+    <form>
+        <table class = "borde-tabla">
+          <tr>
+            <td><label>Nombre del estudiante:</label></td>
+            <td><input type="text" id="name"></td>
+          </tr>
+          <tr>
+            <td><label>Institución donde realizó la práctica formativa:</label></td>
+            <td><input type="text" id="institución"></td>
+          </tr>
+          <tr>
+            <td><label>Nombre del evaluador:</label></td>
+            <td><input type="text" id="evaluador"></td>
+          </tr>
+          <tr>
+            <td><label>Periodo de practica:</label></td>
+            <td><input type="date" id="periodo_practica"></td>
+          </tr>
+          <tr>
+            <td><label>Fecha de evaluación:</label></td>
+            <td><input type="date" id="fecha_evaluación"></td>
+          </tr>
+          <tr>
+            <td><label>Calificación obtenida:</label></td>
+            <td><input type="number" id="Calificación" step="0.1" min="0" max="5"></td>
+          </tr>
+        </table>
+
+        <table class = "borde-tabla" id="miTabla">
+        <tr>
+            <th class="Actitud" colspan="2">A. Actitud Personal(10%)</td>
+            <th class="Actitud" colspan="5">Valor 0.50</th>
+          </tr>
+            <tr>
+              <th>ITEMS</th>
+              <th>Se evaluan de manera integral las competencias comunicativas, actitudinales y comportamentales en terminos generales</th>
+              <th>VALOR DE CADA ITEMS</th>
+              <th>10%</th>
+              <th>NOTA</th>
+              <th>VALOR ITEM NOTA</th>
+              <th>NOTA %</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Muestra buen nivel de expresión oral y escrita de conformidad  a su formación académica y profesional</td>
+              <td>0.1</td>
+              <td>0.10%</td>
+              <td><input type="number" step="0.1" min="0" max="5"></td>
+              <td>0.00</td>
+              <td>0.00%</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Demuestra ética y valores, discreción con la información a su cargo y responsabilidad en su quehacer diario</td>
+              <td>0.1</td>
+              <td>0.10%</td>
+              <td><input type="number" step="0.1" min="0" max="5"></td>
+              <td>0.00</td>
+              <td>0.00%</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Su arreglo y presentación personal es impecable, viste uniformes; completos, limpios y en buen estado, (Uniforme de Mayo y de diario)</td>
+              <td>0.1</td>
+              <td>0.10%</td>
+              <td><input type="number" step="0.1" min="0" max="5"></td>
+              <td>0.00</td>
+              <td>0.00%</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Demuestra interés en su desempeño y afronta adecuadamente las situaciones de estrés (toma decisiones adecuadas que permiten la resolución de situaciones y conflictos)</td>
+              <td>0.1</td>
+              <td>0.10%</td>
+              <td><input type="number" step="0.1" min="0" max="5"></td>
+              <td>0.00</td>
+              <td>0.00%</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Es organizado, demuestra iniciativa y recursividad</td>
+              <td>0.1</td>
+              <td>0.10%</td>
+              <td><input type="number" step="0.1" min="0" max="5"></td>
+              <td>0.00</td>
+              <td>0.00%</td>
+            </tr>
+        </table>
+
+        <table class = "borde-tabla">
+            <tr>
+                <th class="Conocimientos" colspan="2">B.CONOCIMIENTOS ESPECIFICOS DESDE EL AMBITO ASISTENCIAL (80%)</td>
+                <th class="Conocimientos" colspan="5">Valor 4.00</th>
+              </tr>
+                <tr>
+                  <th>ITEMS</th>
+                  <th>Se evalúan las competencias comunicativas, cognitivas y las derivadas del proceso asistencial  (Procedimentales)</th>
+                  <th>VALOR DE CADA ITEMS</th>
+                  <th>80%</th>
+                  <th>NOTA</th>
+                  <th>VALOR ITEM NOTA</th>
+                  <th>NOTA %</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Revisa las historias clínicas y verifica las condiciones generales del paciente</td>
+                  <td>0.2</td>
+                  <td>0.07%</td>
+                  <td><input type="number" step="0.1" min="0" max="5"></td>
+                  <td>0.00</td>
+                  <td>0.00%</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Describe claramente las técnicas quirúrgica y de instrumentación y con base en ello solicita anticipadamente los materiales, las suturas, el instrumental y demás elementos requeridos para la intervención,  previendo las complicaciones y/o cambios en las técnicas quirúrgicas,,</td>
+                  <td>0.4</td>
+                  <td>0.13%</td>
+                  <td><input type="number" step="0.1" min="0" max="5"></td>
+                  <td>0.00</td>
+                  <td>0.00%</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Realiza apertura del paquete de ropa y circula  adecuadamente insumos, elementos e instrumentos requeridos para la intervención quirúrgica</td>
+                  <td>0.2</td>
+                  <td>0.07%</td>
+                  <td><input type="number" step="0.1" min="0" max="5"></td>
+                  <td>0.00</td>
+                  <td>0.00%</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Demuestra interés en su desempeño y afronta adecuadamente las situaciones de estrés (toma decisiones adecuadas que permiten la resolución de situaciones y conflictos)</td>
+                  <td>0.1</td>
+                  <td>0.10%</td>
+                  <td><input type="number" step="0.1" min="0" max="5"></td>
+                  <td>0.00</td>
+                  <td>0.00%</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Aplica correctamente las diferentes técnicas del lavado de manos, se viste,  y viste adecuada y oportunamente al equipo quirúrgico y al paciente</td>
+                  <td>0.2</td>
+                  <td>0.07%</td>
+                  <td><input type="number" step="0.1" min="0" max="5"></td>
+                  <td>0.00</td>
+                  <td>0.00%</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Conoce y aplica los protocolos de las especialidades y conserva el orden y la limpieza del instrumental en todas las etapas del acto quirúrgico</td>
+                    <td>0.4</td>
+                    <td>0.13%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Demuestra habilidad, destreza y seguridad durante el procedimiento quirúrgico</td>
+                    <td>0.4</td>
+                    <td>0.13%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Conoce y aplica las normas de asepsia y se interesa por preservarla en las diferentes etapas del acto quirúrgico, Demuestra interés por brindar un tratamiento adecuado a la herida quirúrgica,</td>
+                    <td>0.3</td>
+                    <td>0.10%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Expresa sus inquietudes de manera clara segura y respetuosa</td>
+                    <td>0.2</td>
+                    <td>0.07%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Distingue con precisión un procedimiento limpio, sucio y contaminado y aplica correctamente la técnica aséptica en cada una de ellas</td>
+                    <td>0.2</td>
+                    <td>0.07%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>Atiende de manera adecuada los cambios en las técnicas operatorias y se anticipa a las necesidades del equipo quirúrgico</td>
+                    <td>0.2</td>
+                    <td>0.07%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Atiende y aplica las sugerencias y correcciones realizadas durante el procedimiento quirúrgico</td>
+                    <td>0.1</td>
+                    <td>0.03%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Realiza correcta y oportunamente el conteo y el recuento de elementos e insumos en las diferentes etapas del acto quirúrgico</td>
+                    <td>0.4</td>
+                    <td>0.13%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>Regula el gasto de materiales quirúrgicos y/u otros,  y se responsabiliza por el tratamiento adecuado, y custodia de esta y  de otros elementos a su cargo</td>
+                    <td>0.1</td>
+                    <td>0.03%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>Maneja y descarta adecuadamente los materiales medico-quirúrgicos y elementos cortopunzantes, (Aplica las normas de bioseguridad, clasifica y manipula adecuadamente desechos cortantes y punzantes) </td>
+                    <td>0.2</td>
+                    <td>0.07%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td> <input type="number" step="0.1" value="0.00" readonly></td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Verifica el funcionamiento de los equipos, de la dotación del quirófano, del instrumental a su cargo antes y después de cada procedimiento</td>
+                    <td>0.2</td>
+                    <td>0.07%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+                  <tr>
+                    <td>17</td>
+                    <td>Es responsable del inventario a su cargo y del orden y la limpieza del área quirúrgica</td>
+                    <td>0.2</td>
+                    <td>0.07%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                  </tr>
+            </table>
+            <table class = "borde-tabla">
+                <tr>
+                    <th class="Ambito" colspan="2">C.AMBITO INVESTIGATIVO, INTERNACIONALIZACIÓN Y PROYECCION SOCIAL (10%)</td>
+                    <th class="Ambito" colspan="5">Valor 0.50</th>
+                </tr>
+                <tr>
+                  <th>ITEMS</th>
+                  <th>Se evalúan las competencias comunicativas, cognitivas y las derivadas del proceso asistencial  (Procedimentales)</th>
+                  <th>VALOR DE CADA ITEMS</th>
+                  <th>20%</th>
+                  <th>NOTA</th>
+                  <th>VALOR ITEM NOTA</th>
+                  <th>NOTA %</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Cumple con el proceso investigativo asignado por el docente para la elaboración y diseño del trabajo (casos clínicos, revisión bibliográfica de artículos científicos, propuesta de investigación)</td>
+                  <td>0.18</td>
+                  <td>0.18%</td>
+                  <td><input type="number" step="0.1" min="0" max="5"></td>
+                  <td>0.00</td>
+                  <td>0.00%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Elabora y ejecuta estrategias y trabajos orientados a la internacionalización del curriculo y de la práctica formativa abordando temas de interés general dirigidas a funcionarios y comunidad académica, aportando a la visibilidad de la profesión y validando su intervención de manera positiva. (Entre otros el plan de mejora)</td>
+                    <td>0.16</td>
+                    <td>0.16%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Desarrolla y participa activamente en la ejecución de la proyección social (institucional y/o comunidad)</td>
+                    <td>0.16</td>
+                    <td>0.16%</td>
+                    <td><input type="number" step="0.1" min="0" max="5"></td>
+                    <td>0.00</td>
+                    <td>0.00%</td>
+                </tr>
+            <table class = "borde-tabla">
+
+            <label class="texlab">OBSERVACIONES DOCENTE EVALUADOR: </label><br>
+            <textarea id="message" name="message" rows="4" cols="112"></textarea><br>
+            <label class="texlab">OBSERVACIONES ESTUDIANTE EVALUADO: </label><br>
+            <textarea id="message" name="message" rows="4" cols="112"></textarea><br>
+        <input type="submit" value="Enviar">
+      </form>
+      <a href="/Componentes/Practica.html" class="Salir">Volver</a>
+
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var tabla = document.getElementById('miTabla');
+            var filas = tabla.querySelectorAll('tr:not(:first-child)');
+
+            filas.forEach(function(fila) {
+                var inputNota = fila.querySelector('input[type="number"]');
+                var valorItemCelda = fila.querySelector('td:nth-child(3)');
+                var valorItemNotaCelda = fila.querySelector('td:nth-child(6)');
+                var notaPorcentajeCelda = fila.querySelector('td:nth-child(7)');
+
+                // Obtener los valores iniciales de las celdas
+                var valorItem = parseFloat(valorItemCelda.textContent);
+                var nota = parseFloat(inputNota.value);
+
+                // Calcular los valores iniciales
+                var valorItemNota = valorItem * nota;
+
+                valorItemNotaCelda.textContent = valorItemNota.toFixed(2);
+                valorItemNotaCelda.nextElementSibling.textContent = ((valorItemNota / 0.5) * 10).toFixed(2) + '%';
+
+                inputNota.addEventListener('input', function() {
+                    var nota = parseFloat(this.value);
+                    var valorItemNota = valorItem * nota;
+
+                    valorItemNotaCelda.textContent = valorItemNota.toFixed(2);
+                    valorItemNotaCelda.nextElementSibling.textContent = ((valorItemNota / 0.5) * 10).toFixed(2) + '%';
+
+                    if (nota <= 0) {
+                        valorItemNotaCelda.textContent = ((valorItemNota * 1 / 1) / 100).toFixed(2);
+                        notaPorcentajeCelda.textContent = '0.00%';
+                    }
+                });
+            });
+        });
+    </script>
+      <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        body {
+            background-color: rgb(253, 239, 239);
+            width: 100%;
+        }
+        
+        table,
+        td,
+        th {
+            border: 1px solid rgb(78, 224, 163);
+            text-align: center;
+            margin: 30px;
+            align-items: center;
+            background-color: white;
+        }
+        
+        table {
+            border-radius: 5px;
+            box-shadow: 10px 10px rgb(78, 224, 163);
+        }
+        
+        th,
+        td {
+            border-spacing: 0;
+            padding: 10px;
+        }
+        
+        .borde-tabla {
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+        
+        input {
+            background: none;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+        
+        input[type="submit"] {
+            width: 120px;
+            height: 50px;
+            border: 1px solid rgb(78, 224, 163);
+            padding: 5px;
+            margin: 10px;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 25px;
+            box-shadow: 5px 5px rgb(78, 224, 163);
+        }
+        
+        textarea {
+            border: 1px solid rgb(78, 224, 163);
+            box-shadow: 10px 10px rgb(78, 224, 163);
+            padding: 10px;
+            margin: 30px;
+            border-radius: 25px;
+            margin-top: 0;
+        }
+        
+        label {
+            margin: 15px;
+            padding: 10px;
+            font-weight: bold;
+        }
+        
+        .container-form {
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+            padding: 10px;
+        }
+        
+        .Salir {
+            position: absolute;
+            left: 50px;
+            top: 2420px;
+            padding: 10px;
+            text-decoration: none;
+            color: rgb(125, 63, 63);
+            letter-spacing: 10px;
+            background-color: #ffff;
+            border: 3px solid #fd5959;
+            z-index: 1;
+            overflow: hidden;
+            margin-left: 15px;
+            margin-right: 15px;
+            border-radius: 25px;
+        }
+        
+        .Salir::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 200%;
+            left: 0;
+            top: -200%;
+            background-color: #fd5959;
+            border-radius: 50%;
+            transition: all 0.6s ease;
+            z-index: -1;
+        }
+        
+        .Salir:hover::before {
+            top: 0;
+            border-radius: 0%;
+        }
+        
+        .Salir:hover {
+            color: #ffff;
+        }
+    </style>
+</body>
+</html>

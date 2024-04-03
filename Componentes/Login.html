@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="icon" href="/Recursos/logo.ico" type="image/x-icon">
+        
+    <title>Inicio</title>
+</head>    
+<body>
+    <div class="container-form login">
+        <div class="information">
+            <div class="info-childs">
+                <h1>Practicas<br>Instrumentación <br> Quirúrgica</h1>
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <img src="/Recursos/logo.ico" class="ico">
+                <h2>Inicio de sesión</h2>
+                <form class="form" onsubmit="return validarInicioSesion();">
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" placeholder="Correo institucional" id="emailInput">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input type="password" placeholder="Identificación" id="passwordInput">
+                    </label>
+                    <input type="submit" value="Iniciar"> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarModal()">&times;</span>
+            <p id="modalMessage"></p>
+        </div>
+    </div>
+
+
+    <script>
+        function cerrarModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+
+        function validarInicioSesion() {
+            var email = document.getElementById("emailInput").value;
+            var identificacion = document.getElementById("passwordInput").value;
+
+            if (email === '' || identificacion === '') {
+                mostrarModal('Todos los campos deben ser llenados');
+                return false;
+            }
+
+            var expresionRegularEmail = /^[^\s@]+@unicesar\.edu\.co$/;
+            
+            if (!expresionRegularEmail.test(email)) {
+                mostrarModal('Por favor ingresa un correo institucional válido');
+                return false;
+            }
+
+            var dominio = email.split('@')[0];
+            var rol = '';
+
+            switch (dominio) {
+                case 'docente':
+                    rol = 'docente';
+                    break;
+                case 'alumno':
+                    rol = 'alumno';
+                    break;
+                case 'admin':
+                    rol = 'admin';
+                    break;
+                default:
+                    mostrarModal('El correo electrónico no tiene un rol válido.');
+                    return false;
+            }
+
+            var usuarioValido = { username: email, password: identificacion, rol: rol };
+
+            if (usuarioValido) {
+                if (usuarioValido.rol === 'admin') {
+                    window.location.href = "/Componentes/Admin.html";
+                } else if (usuarioValido.rol === 'docente') {
+                    window.location.href = "/Componentes/Docente.html";
+                } else if (usuarioValido.rol === 'alumno') {
+                    window.location.href = "/Componentes/Alumno.html";
+                } else {
+                    mostrarModal('El rol del usuario no está definido');
+                }
+            } else {
+                mostrarModal('Nombre de usuario o contraseña incorrectos.');
+            }
+
+            return false;
+        }
+
+        function mostrarModal(mensaje) {
+            var modal = document.getElementById("myModal");
+            var mensajeModal = document.getElementById("modalMessage");
+            mensajeModal.textContent = mensaje;
+            modal.style.display = "block";
+        }
+    </script>
+
+
+    <style>
+        *{
+            padding: 0;
+            outline: none;
+            border: none;
+            text-decoration: none;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        body{
+            background-color: rgb(253, 239, 239);
+        }
+
+        body{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .ico{
+            width: 110px;
+            padding: 0;
+        }
+
+        .container-form{
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            border-radius: 20px;
+            box-shadow: 0 5px 7px rgba(0, 0, 0, -1);
+            height: 500px;
+            width: 800px;
+            margin: 10px;
+            animation: pop-in .5s ease-in forwards;
+            border: #f3696e 1px solid;
+            box-shadow: 10px 10px #f3696e;
+        }
+
+        .information{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-image: linear-gradient( 135deg,#f3a2a2,#f3696e);
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .info-childs{
+            width: 100%;
+            padding: 0 30px;
+        }
+
+        .info-childs h1{
+            font-size: 2.5rem;
+            color: #ffffff;
+        }
+
+        .info-childs p{
+            margin: 15px 0;
+            color: #626161;
+        }
+
+        .form-information{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            text-align: center;
+            background-color: #ffffff;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .form-information-childs{
+            padding: 0 3px;
+        }
+
+        .form-information-childs h2{
+            color: #323232;
+            font-size: 2rem;
+        }
+
+        .form{
+            margin: 30px 0 0 0;
+        }
+
+        .form label{
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            border-radius: 20px;
+            padding: 0 10px;
+            border: solid thin #f3696e;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, -1);
+        }
+
+        .form label input{
+            width: 100%;
+            padding: 10px;
+            background-color: #ffffff;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            color: #323232;
+        }
+
+        .form label i{
+            color: #f3696e;
+        }
+
+        .form input[type="submit"]{
+            width: 150px;
+            background-color: #f3696e;
+            color: #ffffff;
+            border-radius: 20px;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-top: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, -1);
+        }
+
+        .form input[type="submit"]:hover{
+            background-color: #af3c3f;
+        }
+        .modal {
+            position: fixed; 
+            z-index: 1; 
+            padding-top: 100px; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.4); 
+            border-radius: 25px;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 40%;
+            border-radius: 25px;
+            text-align: center;
+            animation: pop-in .5s ease-out forwards;
+        }
+
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+        }
+
+        @keyframes pop-in {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+            80% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</body>
+</html>
