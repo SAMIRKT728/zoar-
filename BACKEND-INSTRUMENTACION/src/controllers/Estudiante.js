@@ -27,7 +27,7 @@ const getOneEstudiante = async (req, res) => {
 
 const createNewEstudiante = async (req, res) => {
   const { body } = req;
-  if (!body.nombre || !body.apellido || !body.correo || !body.CodigoGrupo) {
+  if (!body.Cedula ||!body.nombre || !body.apellido || !body.correo || !body.CodigoGrupo) {
     res.status(400).send({
       status: "FAILED",
       data: {
@@ -38,7 +38,7 @@ const createNewEstudiante = async (req, res) => {
     return;
   }
   const newEstudiante = {
-    Codigo: body.Codigo,
+    Cedula: body.Cedula,
     nombre: body.nombre,
     apellido: body.apellido,
     correo: body.correo,

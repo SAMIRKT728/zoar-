@@ -31,6 +31,17 @@ const Estudiantes = sequelize.define(
         key: 'Codigo',
       },
     },
+    createdAt:{
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue:  sequelize.literal('CURRENT_TIMESTAMP')
+
+    },
+    updatedAt:{
+      type: DataTypes.DATE,
+      allowNull: true,
+    }
+
 
   },
   {
