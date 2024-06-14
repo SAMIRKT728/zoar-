@@ -5,7 +5,7 @@ const Grupos = sequelize.define(
   "Grupo",
   {
     Codigo: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       primaryKey: true, 
       allowNull: false,
     },

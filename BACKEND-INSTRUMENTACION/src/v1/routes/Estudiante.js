@@ -1,6 +1,9 @@
 const express = require("express");
 const estudianteController = require("../../controllers/Estudiante");
 const checkAuth = require("../../middleware/checkAuth");
+const storage = require ('../multer.js')
+const multer = require('multer')
+const uploader = multer({storage})
 
 const router = express.Router();
 
@@ -88,7 +91,7 @@ router.get("/", checkAuth.checkAuth, estudianteController.getAllEstudiantes);
  */
 router.get("/:Cedula", checkAuth.checkAuth, estudianteController.getOneEstudiante);
 
-router.post("/", checkAuth.checkAuth, estudianteController.createNewEstudiante);
+router.post("/", checkAuth.checkAuth,uploader.single('file'), estudianteController.createNewEstudiante);
 
 router.patch(
   "/:Cedula",

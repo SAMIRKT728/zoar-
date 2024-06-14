@@ -6,7 +6,7 @@ const Estudiantes = sequelize.define(
   "Estudiante",
   {
     Cedula: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       primaryKey: true, 
       allowNull: false,
     },
@@ -24,13 +24,17 @@ const Estudiantes = sequelize.define(
     },
 
     CodigoGrupo: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false,
       references: {
         model: Grupos,
         key: 'Codigo',
       },
     },
+    imagen: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    }, 
     createdAt:{
       type: DataTypes.DATE,
       allowNull: false,

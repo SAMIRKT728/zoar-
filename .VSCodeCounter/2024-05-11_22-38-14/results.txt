@@ -1,0 +1,143 @@
+Date : 2024-05-11 22:38:14
+Directory : c:\Users\andre\OneDrive\Documents\Entrega Final
+Total : 72 files,  13217 codes, 278 comments, 626 blanks, all 14121 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          6 |      7,371 |          0 |          5 |      7,376 |
+| HTML           |         12 |      3,114 |          0 |        262 |      3,376 |
+| JavaScript     |         29 |      1,361 |        258 |        195 |      1,814 |
+| JavaScript JSX |         18 |      1,121 |         20 |        120 |      1,261 |
+| CSS            |          3 |        237 |          0 |         39 |        276 |
+| Properties     |          1 |          6 |          0 |          1 |          7 |
+| Markdown       |          1 |          5 |          0 |          4 |          9 |
+| XML            |          2 |          2 |          0 |          0 |          2 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                     |         72 |     13,217 |        278 |        626 |     14,121 |
+| . (Files)                                                                                                             |          1 |         36 |          0 |          0 |         36 |
+| BACKEND-INSTRUMENTACION                                                                                               |         30 |      3,264 |        257 |        195 |      3,716 |
+| BACKEND-INSTRUMENTACION (Files)                                                                                       |          3 |      1,929 |          0 |          3 |      1,932 |
+| BACKEND-INSTRUMENTACION\src                                                                                           |         27 |      1,335 |        257 |        192 |      1,784 |
+| BACKEND-INSTRUMENTACION\src (Files)                                                                                   |          1 |         21 |          2 |          8 |         31 |
+| BACKEND-INSTRUMENTACION\src\controllers                                                                               |          5 |        485 |          3 |         42 |        530 |
+| BACKEND-INSTRUMENTACION\src\database                                                                                  |          5 |        268 |          0 |         32 |        300 |
+| BACKEND-INSTRUMENTACION\src\middleware                                                                                |          1 |         23 |          0 |          4 |         27 |
+| BACKEND-INSTRUMENTACION\src\models                                                                                    |          4 |        152 |          3 |         29 |        184 |
+| BACKEND-INSTRUMENTACION\src\service                                                                                   |          5 |        289 |          4 |         37 |        330 |
+| BACKEND-INSTRUMENTACION\src\v1                                                                                        |          6 |         97 |        245 |         40 |        382 |
+| BACKEND-INSTRUMENTACION\src\v1 (Files)                                                                                |          2 |         39 |          5 |          8 |         52 |
+| BACKEND-INSTRUMENTACION\src\v1\routes                                                                                 |          4 |         58 |        240 |         32 |        330 |
+| Componentes                                                                                                           |         12 |      3,113 |          0 |        262 |      3,375 |
+| Frontend                                                                                                              |         29 |      6,804 |         21 |        169 |      6,994 |
+| Frontend (Files)                                                                                                      |          6 |      5,444 |          1 |         10 |      5,455 |
+| Frontend\public                                                                                                       |          1 |          1 |          0 |          0 |          1 |
+| Frontend\src                                                                                                          |         22 |      1,359 |         20 |        159 |      1,538 |
+| Frontend\src (Files)                                                                                                  |          5 |        221 |          3 |         29 |        253 |
+| Frontend\src\Mui                                                                                                      |          1 |         89 |          2 |          4 |         95 |
+| Frontend\src\assets                                                                                                   |          1 |          1 |          0 |          0 |          1 |
+| Frontend\src\components                                                                                               |          3 |        401 |          3 |         27 |        431 |
+| Frontend\src\components\appbar                                                                                        |          1 |        216 |          1 |         14 |        231 |
+| Frontend\src\components\sideNav                                                                                       |          1 |        185 |          2 |         12 |        199 |
+| Frontend\src\components\styled                                                                                        |          1 |          0 |          0 |          1 |          1 |
+| Frontend\src\layouts                                                                                                  |         12 |        647 |         12 |         99 |        758 |
+| Frontend\src\layouts\Rol                                                                                              |         10 |        403 |          4 |         64 |        471 |
+| Frontend\src\layouts\Rol\Docente                                                                                      |         10 |        403 |          4 |         64 |        471 |
+| Frontend\src\layouts\Rol\Docente (Files)                                                                              |          1 |         21 |          0 |          4 |         25 |
+| Frontend\src\layouts\Rol\Docente\crear                                                                                |          2 |         71 |          0 |         15 |         86 |
+| Frontend\src\layouts\Rol\Docente\crear (Files)                                                                        |          1 |         22 |          0 |          6 |         28 |
+| Frontend\src\layouts\Rol\Docente\crear\components                                                                     |          1 |         49 |          0 |          9 |         58 |
+| Frontend\src\layouts\Rol\Docente\dashboard                                                                            |          1 |          8 |          0 |          1 |          9 |
+| Frontend\src\layouts\Rol\Docente\docentes                                                                             |          3 |        290 |          4 |         37 |        331 |
+| Frontend\src\layouts\Rol\Docente\docentes (Files)                                                                     |          1 |         24 |          0 |          8 |         32 |
+| Frontend\src\layouts\Rol\Docente\docentes\components                                                                  |          2 |        266 |          4 |         29 |        299 |
+| Frontend\src\layouts\Rol\Docente\home                                                                                 |          2 |          6 |          0 |          4 |         10 |
+| Frontend\src\layouts\Rol\Docente\perfil                                                                               |          1 |          7 |          0 |          3 |         10 |
+| Frontend\src\layouts\authentication                                                                                   |          2 |        244 |          8 |         35 |        287 |
+| Frontend\src\layouts\authentication\sign-in                                                                           |          2 |        244 |          8 |         35 |        287 |
++-----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                              | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\.env                                          | Properties     |          6 |          0 |          1 |          7 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\package-lock.json                             | JSON           |      1,895 |          0 |          1 |      1,896 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\package.json                                  | JSON           |         28 |          0 |          1 |         29 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Docente.js                    | JavaScript     |         99 |          1 |         11 |        111 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Estudiante.js                 | JavaScript     |         99 |          1 |         10 |        110 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Grupo.js                      | JavaScript     |         89 |          0 |          7 |         96 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\authController.js             | JavaScript     |        102 |          0 |          7 |        109 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\user.js                       | JavaScript     |         96 |          1 |          7 |        104 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Docente.js                       | JavaScript     |         55 |          0 |          7 |         62 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Estudiante.js                    | JavaScript     |         55 |          0 |          7 |         62 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Grupo.js                         | JavaScript     |         55 |          0 |          7 |         62 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\sequelize.config.js              | JavaScript     |         13 |          0 |          4 |         17 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\user.js                          | JavaScript     |         90 |          0 |          7 |         97 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\index.js                                  | JavaScript     |         21 |          2 |          8 |         31 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\middleware\checkAuth.js                   | JavaScript     |         23 |          0 |          4 |         27 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Docente.js                         | JavaScript     |         48 |          0 |          9 |         57 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Estudiante.js                      | JavaScript     |         52 |          1 |          8 |         61 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Grupo.js                           | JavaScript     |         26 |          1 |          6 |         33 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\user.model.js                      | JavaScript     |         26 |          1 |          6 |         33 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Docente.js                        | JavaScript     |         49 |          0 |          7 |         56 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Estudiante.js                     | JavaScript     |         48 |          0 |          7 |         55 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Grupo.js                          | JavaScript     |         48 |          0 |          7 |         55 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\authService.js                    | JavaScript     |         85 |          4 |          9 |         98 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\user.js                           | JavaScript     |         59 |          0 |          7 |         66 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\multer.js                              | JavaScript     |         11 |          0 |          3 |         14 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Docente.js                      | JavaScript     |         17 |         80 |          8 |        105 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Estudiante.js                   | JavaScript     |         17 |         80 |          8 |        105 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Grupo.js                        | JavaScript     |         14 |         80 |          8 |        102 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\authRoutes.js                   | JavaScript     |         10 |          0 |          8 |         18 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\swagger.js                             | JavaScript     |         28 |          5 |          5 |         38 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Docente.html                                              | HTML           |        179 |          0 |         34 |        213 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Inicio.html                                               | HTML           |         50 |          0 |          4 |         54 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Login.html                                                | HTML           |        261 |          0 |         37 |        298 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practica.html                                             | HTML           |        131 |          0 |         16 |        147 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_1.html                                          | HTML           |        450 |          0 |         26 |        476 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_2.html                                          | HTML           |        425 |          0 |         22 |        447 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_3.html                                          | HTML           |        437 |          0 |         19 |        456 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_4.html                                          | HTML           |        479 |          0 |         24 |        503 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\indicadores.html                                          | HTML           |        280 |          0 |         23 |        303 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\logros.html                                               | HTML           |        205 |          0 |         22 |        227 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\package.json                                              | JSON           |         12 |          0 |          1 |         13 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\record.html                                               | HTML           |        204 |          0 |         34 |        238 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\.eslintrc.cjs                                                | JavaScript     |         21 |          0 |          1 |         22 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\README.md                                                    | Markdown       |          5 |          0 |          4 |          9 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\index.html                                                   | HTML           |         13 |          0 |          1 |         14 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\package-lock.json                                            | JSON           |      5,363 |          0 |          1 |      5,364 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\package.json                                                 | JSON           |         37 |          0 |          1 |         38 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\public\vite.svg                                              | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\App.css                                                  | CSS            |         37 |          0 |          6 |         43 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\App.jsx                                                  | JavaScript JSX |         36 |          2 |          5 |         43 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\Mui\AppMui.jsx                                           | JavaScript JSX |         89 |          2 |          4 |         95 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\assets\react.svg                                         | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\appbar\appbar.jsx                             | JavaScript JSX |        216 |          1 |         14 |        231 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\sideNav\side.jsx                              | JavaScript JSX |        185 |          2 |         12 |        199 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\styled\style.jsx                              | JavaScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\index.css                                                | CSS            |         60 |          0 |         10 |         70 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Mainlayout.jsx                       | JavaScript JSX |         21 |          0 |          4 |         25 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\crear\components\TablaEstufiante.jsx | JavaScript JSX |         49 |          0 |          9 |         58 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\crear\main.jsx                       | JavaScript JSX |         22 |          0 |          6 |         28 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\dashboard\main.jsx                   | JavaScript JSX |          8 |          0 |          1 |          9 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\components\cardInput.jsx    | JavaScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\components\formRegistro.jsx | JavaScript JSX |        266 |          4 |         28 |        298 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\main.jsx                    | JavaScript JSX |         24 |          0 |          8 |         32 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\home\main.jsx                        | JavaScript JSX |          6 |          0 |          3 |          9 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\home\prueba.jsx                      | JavaScript JSX |          0 |          0 |          1 |          1 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\perfil\main.jsx                      | JavaScript JSX |          7 |          0 |          3 |         10 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\authentication\sign-in\main.jsx                  | JavaScript JSX |        104 |          8 |         12 |        124 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\authentication\sign-in\sign.css                  | CSS            |        140 |          0 |         23 |        163 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\main.jsx                                                 | JavaScript JSX |         19 |          1 |          2 |         22 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\routes.jsx                                               | JavaScript JSX |         69 |          0 |          6 |         75 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\vite.config.js                                               | JavaScript     |          5 |          1 |          2 |          8 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\theme (1).json                                                        | JSON           |         36 |          0 |          0 |         36 |
+| Total                                                                                                                 |                |     13,217 |        278 |        626 |     14,121 |
++-----------------------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

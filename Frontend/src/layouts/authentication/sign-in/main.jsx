@@ -6,9 +6,11 @@ import Lock from '@mui/icons-material/Lock';
 import axios from "axios";
 import {useNavigate} from 'react-router-dom';
 
-import './index.css';
+import './sign.css';
 
 function LoginForm() {
+  let rutaPlan = "/estudiante1";
+
   const navigate = useNavigate();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -25,13 +27,13 @@ function LoginForm() {
       return;
     }
 
-    const emailRegExp = /^[^\s@]+@unicesar\.edu\.co$/;
+  /*  const emailRegExp = /^[^\s@]+@unicesar\.edu\.co$/;
     if (!emailRegExp.test(username)) {
       setModalMessage('Por favor ingresa un correo institucional válido');
       setShowModal(true);
       return;
     }
-
+*/
     try {
 
       const url = 'http://localhost:3001/api/v1/auth/signin';
@@ -42,7 +44,8 @@ function LoginForm() {
       setModalMessage('Inicio de sesión correcto');
       setShowModal(true);
       setTimeout(() => {
-        navigate('/');
+        navigate(rutaPlan);
+        ;
       }, 1500);
     } catch (error) {
       console.error(error); // Imprime el error en la consola
@@ -57,7 +60,7 @@ function LoginForm() {
   };
 
   return (
-    <Container  > 
+    <Container maxWidth= "100vw" sx={{ height: "100vh", margin:'0', width: "100vw", display: "flex",justifyContent: "center", alignItems: "center" }} > 
       <Grid container position='relative' sx={{width:'800px'}} className="container-form">
         <Grid item xs={0} md={6} lg={6} className="information">
           <Box className="info-childs">

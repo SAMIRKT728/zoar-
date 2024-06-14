@@ -1,50 +1,44 @@
-import { useState } from 'react'
-import {Routes, Route,Navigate} from "react-router-dom"
-
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import LoginForm from './layouts/authentication/sign-in/main'
-import Home from './layouts/home/main'
-import routes from './routes'
-import Sidenav from './components/sideNav/side'
-
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import routes from './routes';
+import PracticaI from './layouts/Rol/Docente/Notas/PracticaI';
 
 function App() {
-
   const getRoutes = (allRoutes) =>
-  allRoutes.map((route) => {
-    if (route.collapse) {
-      return getRoutes(route.collapse);
-    }
+    allRoutes.map((route) => {
 
-    if (route.route) {
-      return <Route  path={route.route} element={route.component} key={route.key} />;
-    }
-
-    return null;
-  });
+      if (route.collapse) {
+        return getRoutes(route.collapse);
+      } 
+      if (route.route) {
+        // Si la ruta tiene una ruta definida, la renderizamos directamente
+        return (
+          <Route
+            path={route.route}
+            element={route.component}
+            key={route.key}
+          />
+        );
+      } else if (route.children) {
+        // Si la ruta tiene hijos, llamamos recursivamente getRoutes para las rutas hijas
+        return route.children.map((childRoute) => (
+          <Route
+            path={childRoute.route}
+            element={childRoute.component}
+            key={childRoute.key}
+          />
+        ));
+      }
+      return null;
+    });
 
   return (
-    <>
-     <Sidenav
-              
-              brandName="ZOAR"
-              brand={'./logo.ico'}
-              routes={routes}
-           
-            />
-         <Routes>
-          {getRoutes(routes)}
-          <Route path="*" element={<Navigate to="/dashboard" />} />
-        </Routes>
-    
-    </>
-  )
+    <Routes>
+      {getRoutes(routes)}
+      <Route path="/practicaI" exact={true} element={<PracticaI/>} />
+      <Route path="*" element={<Navigate to="/dashboard" />} />
+    </Routes>
+  );
 }
 
-export default App
- /* <Routes>
-      <Route path='/' element={<Home/> }/>
-      <Route path='/login' element={<LoginForm/> }/>
-      </Routes>*/
+export default App;

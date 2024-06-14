@@ -1,5 +1,5 @@
 const { v4: uuid } = require("uuid");
-const { User } = require("../database/User");
+const { User } = require("../database/user");
 
 const getAllUsers = async () => {
   try {

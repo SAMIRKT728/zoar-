@@ -1,6 +1,6 @@
 const { v4: uuid } = require("uuid");
 const dotenv = require("dotenv");
-const User = require("../database/User");
+const User = require("../database/user");
 const jwt = require("jsonwebtoken");
 
 dotenv.config();

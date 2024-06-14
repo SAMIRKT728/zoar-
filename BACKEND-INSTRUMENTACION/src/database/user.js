@@ -1,8 +1,8 @@
 const { User } = require("../models/user.model");
 
-const getOneUser = async (username) => {
+const getOneUser = async (email) => {
   try {
-    const user = await User.findOne({ where: { username: username } });
+    const user = await User.findOne({ where: { email: email } });
     return user;
   } catch (error) {
     throw error;

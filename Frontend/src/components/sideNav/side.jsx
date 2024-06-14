@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
+import React, { useState, useMemo } from "react";
 import { useLocation, NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import Box from "@mui/material/Box";
@@ -12,19 +11,21 @@ import ListItemText from "@mui/material/ListItemText";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import ListItemButton from "@mui/material/ListItemButton";
-import { useState } from "react";
+import Collapse from "@mui/material/Collapse";
+import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
 function Sidenav({ color, brand, brandName, routes, ...rest }) {
   const location = useLocation();
+  const [activeMenu, setActiveMenu] = useState(null);
+
   const collapseName = location.pathname.replace("/", "");
   const [isActive, setIsActive] = useState(false);
-
-  const handleListItemClick = () => {
-    setIsActive(true);
+  const handleParentClick = (key) => {
+    setActiveMenu(activeMenu === key ? null : key);
   };
 
-  const renderRoutes = routes.map(
-    ({ type, name, icon, title, key, href, route }) => {
+  const renderRoutes = useMemo(() => {
+    return routes.map(({ type, name, icon, title, key, href, route, children, parentKey }) => {
       let returnValue;
 
       if (type === "collapse") {
@@ -38,10 +39,10 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
             </ListItemButton>
           </Link>
         ) : (
-          <NavLink key={key} to={route} sx={{}}>
-            <ListItemButton
-              selected={isActive || location.pathname === route}
-              sx={{
+          <React.Fragment key={key}>
+            <ListItemButton onClick={() => handleParentClick(key)} 
+                selected={isActive || location.pathname === route}
+                sx={{
                 "&:hover": {
                   backgroundColor: color === "primary" ? "#121212" : "#e53935",
                 },
@@ -57,18 +58,28 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
                 backgroundColor: "none",
 
                 // Ajusta el radio de borde según sea necesario
-              }}
-            >
+              }}>
               <ListItemIcon sx={{ color: "white" }}>
                 <Icon>{icon}</Icon>
               </ListItemIcon>
-              <ListItemText
-                primary={
-                  <Typography sx={{ color: "white" }}>{name}</Typography>
-                }
-              />
+              <ListItemText primary={<Typography sx={{ color: "white" }}>{name}</Typography>} />
             </ListItemButton>
-          </NavLink>
+            {/* Usamos Collapse para el submenú */}
+            <Collapse sx={{backgroundColor:'#b71c1c ', borderRadius: 2, maxWidth: "90%",marginLeft: "5%",}} in={activeMenu === key} timeout="auto" unmountOnExit>
+              <List component="div" disablePadding>
+                {children && children.map(child => (
+                  <NavLink key={child.key} to={child.route} sx={{ /* Estilos del submenú */ }}>
+                    <ListItemButton selected={location.pathname === child.route} sx={{ pl:4, display: 'flex'}}>
+                      <ListItemIcon sx={{ color: "white", margin:'0'}}>
+                        <FiberManualRecordIcon sx={{ color: "#ffffff", fontSize: "small" }} />
+                      </ListItemIcon>
+                      <ListItemText primary={<Typography sx={{ color: "white", fontSize: "small",margin:'0' }}>{child.name}</Typography>} />
+                    </ListItemButton>
+                  </NavLink>
+                ))}
+              </List>
+            </Collapse>
+          </React.Fragment>
         );
       } else if (type === "title") {
         returnValue = (
@@ -92,8 +103,8 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
       }
 
       return returnValue;
-    }
-  );
+    });
+  }, [routes, activeMenu, location.pathname]);
 
   return (
     <Box
@@ -106,8 +117,7 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
       bgcolor="#c62828"
       borderRadius={4}
       sx={{
-        marginRight:'200'
-
+        marginRight: '200'
       }}
     >
       <Box
@@ -116,7 +126,7 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
         pb={1}
         px={4}
         textAlign="center"
-        sx={{ backgroundColor: "#b71c1c", borderBottomRightRadius:'0',borderBottomLeftRadius:'0' }}
+        sx={{ backgroundColor: "#b71c1c", borderBottomRightRadius: '0', borderBottomLeftRadius: '0' }}
       >
         <Box
           display={{ xs: "block", xl: "none" }}

@@ -1,0 +1,84 @@
+Date : 2024-05-11 22:52:54
+Directory : c:\Users\andre\OneDrive\Documents\Entrega Final
+Total : 43 files,  6413 codes, 257 comments, 457 blanks, all 7127 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| HTML       |         11 |      3,101 |          0 |        261 |      3,362 |
+| JSON       |          4 |      1,971 |          0 |          3 |      1,974 |
+| JavaScript |         27 |      1,335 |        257 |        192 |      1,784 |
+| Properties |          1 |          6 |          0 |          1 |          7 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                      | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                         |         43 |      6,413 |        257 |        457 |      7,127 |
+| . (Files)                                                                                                 |          1 |         36 |          0 |          0 |         36 |
+| BACKEND-INSTRUMENTACION                                                                                   |         30 |      3,264 |        257 |        195 |      3,716 |
+| BACKEND-INSTRUMENTACION (Files)                                                                           |          3 |      1,929 |          0 |          3 |      1,932 |
+| BACKEND-INSTRUMENTACION\src                                                                               |         27 |      1,335 |        257 |        192 |      1,784 |
+| BACKEND-INSTRUMENTACION\src (Files)                                                                       |          1 |         21 |          2 |          8 |         31 |
+| BACKEND-INSTRUMENTACION\src\controllers                                                                   |          5 |        485 |          3 |         42 |        530 |
+| BACKEND-INSTRUMENTACION\src\database                                                                      |          5 |        268 |          0 |         32 |        300 |
+| BACKEND-INSTRUMENTACION\src\middleware                                                                    |          1 |         23 |          0 |          4 |         27 |
+| BACKEND-INSTRUMENTACION\src\models                                                                        |          4 |        152 |          3 |         29 |        184 |
+| BACKEND-INSTRUMENTACION\src\service                                                                       |          5 |        289 |          4 |         37 |        330 |
+| BACKEND-INSTRUMENTACION\src\v1                                                                            |          6 |         97 |        245 |         40 |        382 |
+| BACKEND-INSTRUMENTACION\src\v1 (Files)                                                                    |          2 |         39 |          5 |          8 |         52 |
+| BACKEND-INSTRUMENTACION\src\v1\routes                                                                     |          4 |         58 |        240 |         32 |        330 |
+| Componentes                                                                                               |         12 |      3,113 |          0 |        262 |      3,375 |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                  | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\.env                              | Properties |          6 |          0 |          1 |          7 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\package-lock.json                 | JSON       |      1,895 |          0 |          1 |      1,896 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\package.json                      | JSON       |         28 |          0 |          1 |         29 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Docente.js        | JavaScript |         99 |          1 |         11 |        111 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Estudiante.js     | JavaScript |         99 |          1 |         10 |        110 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Grupo.js          | JavaScript |         89 |          0 |          7 |         96 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\authController.js | JavaScript |        102 |          0 |          7 |        109 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\user.js           | JavaScript |         96 |          1 |          7 |        104 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Docente.js           | JavaScript |         55 |          0 |          7 |         62 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Estudiante.js        | JavaScript |         55 |          0 |          7 |         62 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Grupo.js             | JavaScript |         55 |          0 |          7 |         62 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\sequelize.config.js  | JavaScript |         13 |          0 |          4 |         17 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\user.js              | JavaScript |         90 |          0 |          7 |         97 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\index.js                      | JavaScript |         21 |          2 |          8 |         31 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\middleware\checkAuth.js       | JavaScript |         23 |          0 |          4 |         27 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Docente.js             | JavaScript |         48 |          0 |          9 |         57 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Estudiante.js          | JavaScript |         52 |          1 |          8 |         61 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Grupo.js               | JavaScript |         26 |          1 |          6 |         33 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\user.model.js          | JavaScript |         26 |          1 |          6 |         33 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Docente.js            | JavaScript |         49 |          0 |          7 |         56 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Estudiante.js         | JavaScript |         48 |          0 |          7 |         55 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Grupo.js              | JavaScript |         48 |          0 |          7 |         55 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\authService.js        | JavaScript |         85 |          4 |          9 |         98 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\user.js               | JavaScript |         59 |          0 |          7 |         66 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\multer.js                  | JavaScript |         11 |          0 |          3 |         14 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Docente.js          | JavaScript |         17 |         80 |          8 |        105 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Estudiante.js       | JavaScript |         17 |         80 |          8 |        105 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Grupo.js            | JavaScript |         14 |         80 |          8 |        102 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\authRoutes.js       | JavaScript |         10 |          0 |          8 |         18 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\swagger.js                 | JavaScript |         28 |          5 |          5 |         38 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Docente.html                                  | HTML       |        179 |          0 |         34 |        213 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Inicio.html                                   | HTML       |         50 |          0 |          4 |         54 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Login.html                                    | HTML       |        261 |          0 |         37 |        298 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practica.html                                 | HTML       |        131 |          0 |         16 |        147 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_1.html                              | HTML       |        450 |          0 |         26 |        476 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_2.html                              | HTML       |        425 |          0 |         22 |        447 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_3.html                              | HTML       |        437 |          0 |         19 |        456 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_4.html                              | HTML       |        479 |          0 |         24 |        503 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\indicadores.html                              | HTML       |        280 |          0 |         23 |        303 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\logros.html                                   | HTML       |        205 |          0 |         22 |        227 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\package.json                                  | JSON       |         12 |          0 |          1 |         13 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\record.html                                   | HTML       |        204 |          0 |         34 |        238 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\theme (1).json                                            | JSON       |         36 |          0 |          0 |         36 |
+| Total                                                                                                     |            |      6,413 |        257 |        457 |      7,127 |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

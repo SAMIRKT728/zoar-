@@ -1,0 +1,45 @@
+"filename", "language", "JSON", "HTML", "JavaScript", "Properties", "comment", "blank", "total"
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\.env", "Properties", 0, 0, 0, 6, 0, 1, 7
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\package-lock.json", "JSON", 1895, 0, 0, 0, 0, 1, 1896
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\package.json", "JSON", 28, 0, 0, 0, 0, 1, 29
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Docente.js", "JavaScript", 0, 0, 99, 0, 1, 11, 111
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Estudiante.js", "JavaScript", 0, 0, 99, 0, 1, 10, 110
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Grupo.js", "JavaScript", 0, 0, 89, 0, 0, 7, 96
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\authController.js", "JavaScript", 0, 0, 102, 0, 0, 7, 109
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\user.js", "JavaScript", 0, 0, 96, 0, 1, 7, 104
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Docente.js", "JavaScript", 0, 0, 55, 0, 0, 7, 62
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Estudiante.js", "JavaScript", 0, 0, 55, 0, 0, 7, 62
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Grupo.js", "JavaScript", 0, 0, 55, 0, 0, 7, 62
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\sequelize.config.js", "JavaScript", 0, 0, 13, 0, 0, 4, 17
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\user.js", "JavaScript", 0, 0, 90, 0, 0, 7, 97
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\index.js", "JavaScript", 0, 0, 21, 0, 2, 8, 31
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\middleware\checkAuth.js", "JavaScript", 0, 0, 23, 0, 0, 4, 27
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Docente.js", "JavaScript", 0, 0, 48, 0, 0, 9, 57
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Estudiante.js", "JavaScript", 0, 0, 52, 0, 1, 8, 61
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Grupo.js", "JavaScript", 0, 0, 26, 0, 1, 6, 33
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\user.model.js", "JavaScript", 0, 0, 26, 0, 1, 6, 33
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Docente.js", "JavaScript", 0, 0, 49, 0, 0, 7, 56
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Estudiante.js", "JavaScript", 0, 0, 48, 0, 0, 7, 55
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Grupo.js", "JavaScript", 0, 0, 48, 0, 0, 7, 55
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\authService.js", "JavaScript", 0, 0, 85, 0, 4, 9, 98
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\user.js", "JavaScript", 0, 0, 59, 0, 0, 7, 66
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\multer.js", "JavaScript", 0, 0, 11, 0, 0, 3, 14
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Docente.js", "JavaScript", 0, 0, 17, 0, 80, 8, 105
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Estudiante.js", "JavaScript", 0, 0, 17, 0, 80, 8, 105
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Grupo.js", "JavaScript", 0, 0, 14, 0, 80, 8, 102
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\authRoutes.js", "JavaScript", 0, 0, 10, 0, 0, 8, 18
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\swagger.js", "JavaScript", 0, 0, 28, 0, 5, 5, 38
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Docente.html", "HTML", 0, 179, 0, 0, 0, 34, 213
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Inicio.html", "HTML", 0, 50, 0, 0, 0, 4, 54
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Login.html", "HTML", 0, 261, 0, 0, 0, 37, 298
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practica.html", "HTML", 0, 131, 0, 0, 0, 16, 147
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_1.html", "HTML", 0, 450, 0, 0, 0, 26, 476
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_2.html", "HTML", 0, 425, 0, 0, 0, 22, 447
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_3.html", "HTML", 0, 437, 0, 0, 0, 19, 456
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_4.html", "HTML", 0, 479, 0, 0, 0, 24, 503
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\indicadores.html", "HTML", 0, 280, 0, 0, 0, 23, 303
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\logros.html", "HTML", 0, 205, 0, 0, 0, 22, 227
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\package.json", "JSON", 12, 0, 0, 0, 0, 1, 13
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\record.html", "HTML", 0, 204, 0, 0, 0, 34, 238
+"c:\Users\andre\OneDrive\Documents\Entrega Final\theme (1).json", "JSON", 36, 0, 0, 0, 0, 0, 36
+"Total", "-", 1971, 3101, 1335, 6, 257, 457, 7127

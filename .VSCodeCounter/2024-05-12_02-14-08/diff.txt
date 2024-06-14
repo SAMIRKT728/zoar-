@@ -1,0 +1,38 @@
+Date : 2024-05-12 02:14:08
+Directory : c:\Users\andre\OneDrive\Documents\Entrega Final
+Total : 12 files,  -3113 codes, 0 comments, -262 blanks, all -3375 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| JSON     |          1 |        -12 |          0 |         -1 |        -13 |
+| HTML     |         11 |     -3,101 |          0 |       -261 |     -3,362 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                            |         12 |     -3,113 |          0 |       -262 |     -3,375 |
+| Componentes                                                                  |         12 |     -3,113 |          0 |       -262 |     -3,375 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                     | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Docente.html     | HTML     |       -179 |          0 |        -34 |       -213 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Inicio.html      | HTML     |        -50 |          0 |         -4 |        -54 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Login.html       | HTML     |       -261 |          0 |        -37 |       -298 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practica.html    | HTML     |       -131 |          0 |        -16 |       -147 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_1.html | HTML     |       -450 |          0 |        -26 |       -476 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_2.html | HTML     |       -425 |          0 |        -22 |       -447 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_3.html | HTML     |       -437 |          0 |        -19 |       -456 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\Practicas_4.html | HTML     |       -479 |          0 |        -24 |       -503 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\indicadores.html | HTML     |       -280 |          0 |        -23 |       -303 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\logros.html      | HTML     |       -205 |          0 |        -22 |       -227 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\package.json     | JSON     |        -12 |          0 |         -1 |        -13 |
+| c:\Users\andre\OneDrive\Documents\Entrega Final\Componentes\record.html      | HTML     |       -204 |          0 |        -34 |       -238 |
+| Total                                                                        |          |     -3,113 |          0 |       -262 |     -3,375 |
++------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

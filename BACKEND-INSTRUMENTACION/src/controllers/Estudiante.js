@@ -26,8 +26,8 @@ const getOneEstudiante = async (req, res) => {
 };
 
 const createNewEstudiante = async (req, res) => {
-  const { body } = req;
-  if (!body.Cedula ||!body.nombre || !body.apellido || !body.correo || !body.CodigoGrupo) {
+  const { body, file } = req;
+  if (!body.nombre || !body.apellido || !body.correo || !body.CodigoGrupo) {
     res.status(400).send({
       status: "FAILED",
       data: {
@@ -37,12 +37,23 @@ const createNewEstudiante = async (req, res) => {
     });
     return;
   }
+
+  let imagenUrl;
+
+  // Comprobar si existe el archivo en la solicitud
+  if (file) {
+    imagenUrl = `http://localhost:3001/Estudiantes/${file.filename}`;
+  } else {
+    imagenUrl = body.imagen; // Tomar la imagen del cuerpo de la solicitud si no se proporcionó un archivo
+  }
   const newEstudiante = {
     Cedula: body.Cedula,
     nombre: body.nombre,
     apellido: body.apellido,
     correo: body.correo,
     CodigoGrupo: body.CodigoGrupo,
+    imagen: imagenUrl
+
   };
   try {
     const createdEstudiante = await EstudianteService.createNewEstudiante(newEstudiante);

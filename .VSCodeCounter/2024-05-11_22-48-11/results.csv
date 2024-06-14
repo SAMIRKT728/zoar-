@@ -1,0 +1,31 @@
+"filename", "language", "JavaScript", "JavaScript JSX", "CSS", "XML", "Markdown", "JSON", "HTML", "comment", "blank", "total"
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\.eslintrc.cjs", "JavaScript", 21, 0, 0, 0, 0, 0, 0, 0, 1, 22
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\README.md", "Markdown", 0, 0, 0, 0, 5, 0, 0, 0, 4, 9
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\index.html", "HTML", 0, 0, 0, 0, 0, 0, 13, 0, 1, 14
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\package-lock.json", "JSON", 0, 0, 0, 0, 0, 5363, 0, 0, 1, 5364
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\package.json", "JSON", 0, 0, 0, 0, 0, 37, 0, 0, 1, 38
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\public\vite.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\App.css", "CSS", 0, 0, 37, 0, 0, 0, 0, 0, 6, 43
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\App.jsx", "JavaScript JSX", 0, 36, 0, 0, 0, 0, 0, 2, 5, 43
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\Mui\AppMui.jsx", "JavaScript JSX", 0, 89, 0, 0, 0, 0, 0, 2, 4, 95
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\assets\react.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\appbar\appbar.jsx", "JavaScript JSX", 0, 216, 0, 0, 0, 0, 0, 1, 14, 231
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\sideNav\side.jsx", "JavaScript JSX", 0, 185, 0, 0, 0, 0, 0, 2, 12, 199
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\styled\style.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\index.css", "CSS", 0, 0, 60, 0, 0, 0, 0, 0, 10, 70
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Mainlayout.jsx", "JavaScript JSX", 0, 21, 0, 0, 0, 0, 0, 0, 4, 25
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\crear\components\TablaEstufiante.jsx", "JavaScript JSX", 0, 49, 0, 0, 0, 0, 0, 0, 9, 58
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\crear\main.jsx", "JavaScript JSX", 0, 22, 0, 0, 0, 0, 0, 0, 6, 28
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\dashboard\main.jsx", "JavaScript JSX", 0, 8, 0, 0, 0, 0, 0, 0, 1, 9
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\components\cardInput.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\components\formRegistro.jsx", "JavaScript JSX", 0, 266, 0, 0, 0, 0, 0, 4, 28, 298
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\main.jsx", "JavaScript JSX", 0, 24, 0, 0, 0, 0, 0, 0, 8, 32
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\home\main.jsx", "JavaScript JSX", 0, 6, 0, 0, 0, 0, 0, 0, 3, 9
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\home\prueba.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\perfil\main.jsx", "JavaScript JSX", 0, 7, 0, 0, 0, 0, 0, 0, 3, 10
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\authentication\sign-in\main.jsx", "JavaScript JSX", 0, 104, 0, 0, 0, 0, 0, 8, 12, 124
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\authentication\sign-in\sign.css", "CSS", 0, 0, 140, 0, 0, 0, 0, 0, 23, 163
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\main.jsx", "JavaScript JSX", 0, 19, 0, 0, 0, 0, 0, 1, 2, 22
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\routes.jsx", "JavaScript JSX", 0, 69, 0, 0, 0, 0, 0, 0, 6, 75
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\vite.config.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 26, 1121, 237, 2, 5, 5400, 13, 21, 169, 6994
