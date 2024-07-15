@@ -15,12 +15,13 @@ const signIn = async (req, res) => {
 };
 
 const signUp = async (req, res) => {
-  const { username, email, password } = req.body;
+  const { username, email, password, Estudiante } = req.body;
   try {
     const createdUser = await authService.signUp({
       username, 
       email,
-      password
+      password,
+      Estudiante
      
     });
     res.send({ status: "OK", data: createdUser });

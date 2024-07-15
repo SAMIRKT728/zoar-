@@ -9,9 +9,9 @@ const getAllEstudiantes = async () => {
   }
 };
 
-const getOneEstudiante = async (Codigo) => {
+const getOneEstudiante = async (Cedula) => {
   try {
-    const estudiante = await Estudiante.getOneEstudiante(Codigo);
+    const estudiante = await Estudiante.getOneEstudiante(Cedula);
     return estudiante;
   } catch (error) {
     throw error;
@@ -36,9 +36,9 @@ const updateOneEstudiante = async (Codigo, changes) => {
   }
 };
 
-const deleteEstudiante = async (Codigo) => {
+const deleteEstudiante = async (Cedula) => {
   try {
-    const deletedEstudiante = await Estudiante.deleteEstudiante(Codigo);
+    const deletedEstudiante = await Estudiante.deleteEstudiante(Cedula);
     return deletedEstudiante;
   } catch (error) {
     throw error;

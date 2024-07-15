@@ -38,10 +38,10 @@ const signUp = async (params) => {
     const repetidoEmail = await User.getOneUserEmail(params);
     if (repetidoUsername === true) {
       throw new Error("Usuario ya registrado");
-    } else if (repetidoUsername === false) {
+    } else  {
       if (repetidoEmail === true) {
         throw new Error("Correo en uso por otro Usuario");
-      } else if (repetidoEmail === false) {
+      } else  {
         const user = await User.createNewUser(params);
         return user;
       }
@@ -50,6 +50,9 @@ const signUp = async (params) => {
     throw error;
   }
 };
+
+
+
 
 const getAllUsers = async (filterParams) => {
   try {

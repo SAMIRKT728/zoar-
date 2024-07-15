@@ -29,7 +29,7 @@ const getOneUser = async (req, res) => {
 
 const createNewUser = async (req, res) => {
   const { body } = req;
-  if (!body.email || !body.username || !body.password) {
+  if (!body.email || !body.username || !body.password || !body.Estudiante) {
     res.status(400).send({
       status: "FAILED",
       data: {
@@ -43,6 +43,7 @@ const createNewUser = async (req, res) => {
     email: body.email,
     username: body.username,
     password: body.password,
+    Estudiante: body.Estudiante
     // Include other properties as needed
   };
   try {

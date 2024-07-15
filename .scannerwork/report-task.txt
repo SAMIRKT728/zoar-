@@ -1,0 +1,7 @@
+organization=samirkt728
+projectKey=SAMIRKT728_zoar-
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.55129
+dashboardUrl=https://sonarcloud.io/dashboard?id=SAMIRKT728_zoar-
+ceTaskId=AZAVY-vxzapxi95yroNd
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZAVY-vxzapxi95yroNd

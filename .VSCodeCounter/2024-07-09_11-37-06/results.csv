@@ -1,0 +1,94 @@
+"filename", "language", "Properties", "JavaScript JSX", "JavaScript", "JSON", "CSS", "XML", "Markdown", "HTML", "comment", "blank", "total"
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\.env", "Properties", 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\package-lock.json", "JSON", 0, 0, 0, 1895, 0, 0, 0, 0, 0, 1, 1896
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\package.json", "JSON", 0, 0, 0, 28, 0, 0, 0, 0, 0, 1, 29
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Docente.js", "JavaScript", 0, 0, 99, 0, 0, 0, 0, 0, 1, 11, 111
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Estudiante.js", "JavaScript", 0, 0, 108, 0, 0, 0, 0, 0, 0, 15, 123
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Grupo.js", "JavaScript", 0, 0, 89, 0, 0, 0, 0, 0, 0, 7, 96
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\Lugares.js", "JavaScript", 0, 0, 99, 0, 0, 0, 0, 0, 1, 10, 110
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\authController.js", "JavaScript", 0, 0, 103, 0, 0, 0, 0, 0, 0, 7, 110
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\notas.js", "JavaScript", 0, 0, 74, 0, 0, 0, 0, 0, 0, 7, 81
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\controllers\user.js", "JavaScript", 0, 0, 97, 0, 0, 0, 0, 0, 1, 7, 105
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Docente.js", "JavaScript", 0, 0, 55, 0, 0, 0, 0, 0, 0, 7, 62
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Estudiante.js", "JavaScript", 0, 0, 61, 0, 0, 0, 0, 0, 0, 7, 68
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Grupo.js", "JavaScript", 0, 0, 55, 0, 0, 0, 0, 0, 0, 7, 62
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\Lugares.js", "JavaScript", 0, 0, 55, 0, 0, 0, 0, 0, 0, 7, 62
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\notas.js", "JavaScript", 0, 0, 55, 0, 0, 0, 0, 0, 5, 7, 67
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\sequelize.config.js", "JavaScript", 0, 0, 13, 0, 0, 0, 0, 0, 0, 4, 17
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\database\user.js", "JavaScript", 0, 0, 90, 0, 0, 0, 0, 0, 0, 7, 97
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\index.js", "JavaScript", 0, 0, 27, 0, 0, 0, 0, 0, 2, 8, 37
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\middleware\checkAuth.js", "JavaScript", 0, 0, 23, 0, 0, 0, 0, 0, 0, 4, 27
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Docente.js", "JavaScript", 0, 0, 48, 0, 0, 0, 0, 0, 0, 9, 57
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Estudiante.js", "JavaScript", 0, 0, 52, 0, 0, 0, 0, 0, 1, 8, 61
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Grupo.js", "JavaScript", 0, 0, 26, 0, 0, 0, 0, 0, 1, 6, 33
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\Lugares.js", "JavaScript", 0, 0, 68, 0, 0, 0, 0, 0, 0, 4, 72
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\notas.js", "JavaScript", 0, 0, 135, 0, 0, 0, 0, 0, 0, 6, 141
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\models\user.model.js", "JavaScript", 0, 0, 35, 0, 0, 0, 0, 0, 1, 7, 43
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Docente.js", "JavaScript", 0, 0, 49, 0, 0, 0, 0, 0, 0, 7, 56
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Estudiante.js", "JavaScript", 0, 0, 48, 0, 0, 0, 0, 0, 0, 7, 55
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\Grupo.js", "JavaScript", 0, 0, 48, 0, 0, 0, 0, 0, 0, 7, 55
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\authService.js", "JavaScript", 0, 0, 85, 0, 0, 0, 0, 0, 4, 12, 101
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\service\user.js", "JavaScript", 0, 0, 59, 0, 0, 0, 0, 0, 0, 7, 66
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\multer.js", "JavaScript", 0, 0, 11, 0, 0, 0, 0, 0, 0, 3, 14
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Docente.js", "JavaScript", 0, 0, 17, 0, 0, 0, 0, 0, 80, 8, 105
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Estudiante.js", "JavaScript", 0, 0, 17, 0, 0, 0, 0, 0, 80, 8, 105
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Grupo.js", "JavaScript", 0, 0, 14, 0, 0, 0, 0, 0, 80, 8, 102
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\Practicas.js", "JavaScript", 0, 0, 10, 0, 0, 0, 0, 0, 0, 6, 16
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\PracticasIV.js", "JavaScript", 0, 0, 9, 0, 0, 0, 0, 0, 0, 4, 13
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\authRoutes.js", "JavaScript", 0, 0, 10, 0, 0, 0, 0, 0, 0, 8, 18
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\routes\lugares.js", "JavaScript", 0, 0, 17, 0, 0, 0, 0, 0, 80, 8, 105
+"c:\Users\andre\OneDrive\Documents\Entrega Final\BACKEND-INSTRUMENTACION\src\v1\swagger.js", "JavaScript", 0, 0, 28, 0, 0, 0, 0, 0, 5, 5, 38
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\.eslintrc.cjs", "JavaScript", 0, 0, 21, 0, 0, 0, 0, 0, 0, 1, 22
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 5, 0, 0, 4, 9
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\babel.config.cjs", "JavaScript", 0, 0, 6, 0, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 13, 1, 3, 17
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\package-lock.json", "JSON", 0, 0, 0, 12360, 0, 0, 0, 0, 0, 1, 12361
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\package.json", "JSON", 0, 0, 0, 65, 0, 0, 0, 0, 0, 1, 66
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\public\vite.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\App.css", "CSS", 0, 0, 0, 0, 37, 0, 0, 0, 0, 6, 43
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\App.jsx", "JavaScript JSX", 0, 38, 0, 0, 0, 0, 0, 0, 2, 8, 48
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\Hooks\RegistrarEstudiante.jsx", "JavaScript JSX", 0, 41, 0, 0, 0, 0, 0, 0, 5, 12, 58
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\Hooks\api.jsx", "JavaScript JSX", 0, 32, 0, 0, 0, 0, 0, 0, 0, 5, 37
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\Hooks\ejemplo.js", "JavaScript", 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 4
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\Mui\AppMui.jsx", "JavaScript JSX", 0, 88, 0, 0, 0, 0, 0, 0, 2, 4, 94
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\assets\react.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\Alerts\alert.jsx", "JavaScript JSX", 0, 32, 0, 0, 0, 0, 0, 0, 0, 5, 37
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\Avatar\avatarname.jsx", "JavaScript JSX", 0, 31, 0, 0, 0, 0, 0, 0, 0, 9, 40
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\appbar\appbar.jsx", "JavaScript JSX", 0, 216, 0, 0, 0, 0, 0, 0, 1, 14, 231
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\card.jsx", "JavaScript JSX", 0, 33, 0, 0, 0, 0, 0, 0, 0, 5, 38
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\sideNav\side.jsx", "JavaScript JSX", 0, 185, 0, 0, 0, 0, 0, 0, 2, 12, 199
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\components\styled\style.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\index.css", "CSS", 0, 0, 0, 0, 60, 0, 0, 0, 0, 10, 70
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Mainlayout.jsx", "JavaScript JSX", 0, 24, 0, 0, 0, 0, 0, 0, 0, 5, 29
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Notas\PracticaI.jsx", "JavaScript JSX", 0, 24, 0, 0, 0, 0, 0, 0, 0, 4, 28
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Notas\RegistrarNotas.jsx", "JavaScript JSX", 0, 26, 0, 0, 0, 0, 0, 0, 0, 7, 33
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Notas\components\FormComponentA.jsx", "JavaScript JSX", 0, 69, 0, 0, 0, 0, 0, 0, 0, 5, 74
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Notas\components\FormComponentB.jsx", "JavaScript JSX", 0, 80, 0, 0, 0, 0, 0, 0, 0, 7, 87
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Notas\components\cardPracticas.jsx", "JavaScript JSX", 0, 41, 0, 0, 0, 0, 0, 0, 0, 4, 45
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Notas\components\datatable.jsx", "JavaScript JSX", 0, 62, 0, 0, 0, 0, 0, 0, 1, 11, 74
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\Notas\components\modal.jsx", "JavaScript JSX", 0, 138, 0, 0, 0, 0, 0, 0, 0, 11, 149
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\crear\components\TablaEstufiante.jsx", "JavaScript JSX", 0, 54, 0, 0, 0, 0, 0, 0, 0, 17, 71
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\crear\main.jsx", "JavaScript JSX", 0, 24, 0, 0, 0, 0, 0, 0, 0, 6, 30
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\dashboard\main.jsx", "JavaScript JSX", 0, 19, 0, 0, 0, 0, 0, 0, 2, 5, 26
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\components\cardInput.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\components\formRegistro.jsx", "JavaScript JSX", 0, 280, 0, 0, 0, 0, 0, 0, 0, 20, 300
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\components\formRegistro.test.js", "JavaScript", 0, 0, 66, 0, 0, 0, 0, 0, 2, 22, 90
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\docentes\main.jsx", "JavaScript JSX", 0, 25, 0, 0, 0, 0, 0, 0, 0, 8, 33
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\home\main.jsx", "JavaScript JSX", 0, 19, 0, 0, 0, 0, 0, 0, 2, 5, 26
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\home\prueba.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\Rol\Docente\perfil\main.jsx", "JavaScript JSX", 0, 7, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\authentication\components\Alerts\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\authentication\sign-in\main.jsx", "JavaScript JSX", 0, 106, 0, 0, 0, 0, 0, 0, 8, 13, 127
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\authentication\sign-in\sign.css", "CSS", 0, 0, 0, 0, 140, 0, 0, 0, 0, 23, 163
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\layouts\authentication\sign-up\components\formRegistro.jsx", "JavaScript JSX", 0, 163, 0, 0, 0, 0, 0, 0, 0, 18, 181
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\main.jsx", "JavaScript JSX", 0, 21, 0, 0, 0, 0, 0, 0, 1, 4, 26
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\routes.jsx", "JavaScript JSX", 0, 70, 0, 0, 0, 0, 0, 0, 0, 7, 77
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\validaciones\ValidarUsuario.jsx", "JavaScript JSX", 0, 28, 0, 0, 0, 0, 0, 0, 0, 6, 34
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\validaciones\ValidarUsuario.test.jsx", "JavaScript JSX", 0, 77, 0, 0, 0, 0, 0, 0, 0, 12, 89
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\validaciones\validarEstudiante.jsx", "JavaScript JSX", 0, 47, 0, 0, 0, 0, 0, 0, 0, 8, 55
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\src\validaciones\validarEstudiante.test.jsx", "JavaScript JSX", 0, 80, 0, 0, 0, 0, 0, 0, 0, 18, 98
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\test\ejemplo.test.jsx", "JavaScript JSX", 0, 7, 0, 0, 0, 0, 0, 0, 0, 3, 10
+"c:\Users\andre\OneDrive\Documents\Entrega Final\Frontend\vite.config.js", "JavaScript", 0, 0, 5, 0, 0, 0, 0, 0, 1, 2, 8
+"c:\Users\andre\OneDrive\Documents\Entrega Final\sonar-project.properties", "Properties", 3, 0, 0, 0, 0, 0, 0, 0, 10, 4, 17
+"c:\Users\andre\OneDrive\Documents\Entrega Final\theme (1).json", "JSON", 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 36
+"Total", "-", 9, 2187, 1991, 14384, 237, 2, 5, 13, 382, 626, 19836

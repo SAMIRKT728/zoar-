@@ -1,9 +1,12 @@
-import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import routes from './routes';
+import React, { useEffect } from 'react';
 import PracticaI from './layouts/Rol/Docente/Notas/PracticaI';
 
+
 function App() {
+
+
   const getRoutes = (allRoutes) =>
     allRoutes.map((route) => {
 

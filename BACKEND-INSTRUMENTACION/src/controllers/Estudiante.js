@@ -13,10 +13,10 @@ const getAllEstudiantes = async (req, res) => {
 
 const getOneEstudiante = async (req, res) => {
   const {
-    params: { Codigo },
+    params: { Cedula },
   } = req;
   try {
-    const estudiante = await EstudianteService.getOneEstudiante(Codigo);
+    const estudiante = await EstudianteService.getOneEstudiante(Cedula);
     res.send({ status: "OK", data: estudiante });
   } catch (error) {
     res
@@ -27,12 +27,26 @@ const getOneEstudiante = async (req, res) => {
 
 const createNewEstudiante = async (req, res) => {
   const { body, file } = req;
+  const errors = [];
+
   if (!body.nombre || !body.apellido || !body.correo || !body.CodigoGrupo) {
+    errors.push("campo vacio en : nombre o apellido o correo o codigoGrupo");
+
+  }
+
+  if (!body.correo || !body.correo.endsWith("@unicesar.edu.co")) {
+    errors.push("Correo no válido. Debe ser un correo de @unicesar.edu.co");
+  }
+
+  if (!body.Cedula || isNaN(body.Cedula) || body.Cedula < 10000 || body.Cedula > 99999999999) {
+    errors.push("Cédula no válida. Debe estar en un rango entre 10000 y 99999999999");
+  }
+
+  if (errors.length > 0) {
     res.status(400).send({
       status: "FAILED",
       data: {
-        error:
-          "The following keys are missing or empty in the request body: 'nombre', 'apellido', 'correo', 'CodigoGrupo'",
+        errors: errors,
       },
     });
     return;
@@ -40,11 +54,10 @@ const createNewEstudiante = async (req, res) => {
 
   let imagenUrl;
 
-  // Comprobar si existe el archivo en la solicitud
   if (file) {
     imagenUrl = `http://localhost:3001/Estudiantes/${file.filename}`;
   } else {
-    imagenUrl = body.imagen; // Tomar la imagen del cuerpo de la solicitud si no se proporcionó un archivo
+    imagenUrl = body.imagen; 
   }
   const newEstudiante = {
     Cedula: body.Cedula,
@@ -88,10 +101,10 @@ const updateOneEstudiante = async (req, res) => {
 
 const deleteEstudiante = async (req, res) => {
   const {
-    params: { Codigo },
+    params: { Cedula },
   } = req;
   try {
-    const deletedEstudiante = await EstudianteService.deleteEstudiante(Codigo);
+    const deletedEstudiante = await EstudianteService.deleteEstudiante(Cedula);
     res.status(204).send({ status: "OK", data: deletedEstudiante });
   } catch (error) {
     res

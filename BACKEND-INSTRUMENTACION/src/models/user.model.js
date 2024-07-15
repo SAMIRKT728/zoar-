@@ -1,5 +1,7 @@
 const { sequelize } = require("../database/sequelize.config");
 const { DataTypes } = require("sequelize");
+const {Estudiantes} = require ("./Estudiante")
+
 
 const User = sequelize.define(
   "User",
@@ -19,6 +21,14 @@ const User = sequelize.define(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    Estudiante:{
+      type: DataTypes.STRING,
+      allowNull: false,
+      references:{
+          model: Estudiantes,
+          key: 'Cedula'
+      }
+  }
   },
   {
     // Other model options go here

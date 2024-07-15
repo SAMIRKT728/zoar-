@@ -9,9 +9,12 @@ const getAllEstudiantes = async () => {
   }
 };
 
-const getOneEstudiante = async (Codigo) => {
+const getOneEstudiante = async (Cedula) => {
   try {
-    const estudiante = await Estudiantes.findByPk(Codigo);
+    if (!(await Estudiantes.findByPk(Cedula))) {
+      throw new Error("No se encontró el estudiante");
+    }
+    const estudiante = await Estudiantes.findByPk(Cedula);
     return estudiante;
   } catch (error) {
     throw { status: 500, message: error?.message || error };
@@ -29,6 +32,9 @@ const createNewEstudiante = async (newEstudiante) => {
 
 const updateOneEstudiante = async (Codigo, changes) => {
   try {
+    if (!(await Estudiantes.findByPk(Cedula))) {
+      throw new Error("No se encontró el estudiante");
+    }
     const updatedEstudiante = await Estudiantes.update(changes, {
       where: { Codigo: Codigo },
     });
@@ -38,13 +44,13 @@ const updateOneEstudiante = async (Codigo, changes) => {
   }
 };
 
-const deleteEstudiante = async (Codigo) => {
+const deleteEstudiante = async (Cedula) => {
   try {
-    if (!(await Estudiantes.findByPk(Codigo))) {
+    if (!(await Estudiantes.findByPk(Cedula))) {
       throw new Error("No se encontró el estudiante");
     }
     const deletedEstudiante = await Estudiantes.destroy({
-      where: { Codigo: Codigo },
+      where: { Cedula: Cedula },
     });
     return deletedEstudiante;
   } catch (error) {
