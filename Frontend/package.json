@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "sample-test": "node sample-test.js",
+      "sample-local-test": "browserstack-node-sdk jest src/sample-local.test.js",
+    "postinstall": "npm update browserstack-node-sdk",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -12,6 +15,9 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "browserstack-local": "^1.4.8",
+    "dotenv": "^16.0.0",
+    "selenium-webdriver": "4.1.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@fontsource/roboto": "^5.0.12",
@@ -29,6 +35,7 @@
     "react-toastify": "^10.0.5"
   },
   "devDependencies": {
+    "browserstack-node-sdk": "latest",
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
     "@babel/preset-react": "^7.24.7",

@@ -4,20 +4,22 @@ describe('Prueba Validar Usuario',()=>{
     
     it('Datos Correctos del usuario ',()=>{
         const resultado = validaUser({
-            Usuario:'sara',
-            Contraseña:'contr',
-            RepetirContra:'contra1236'
+            Usuario:'Carlos',
+            Contraseña:'contraseña',
+            RepetirContra:'contraseña'
             
         })
         expect (resultado).toEqual({
-            Usuario:'saramirez',
-            Contraseña:'contra1236',
-            RepetirContra:'contra1236'
-         })
+            Usuario:'Carlos',
+            Contraseña:'contraseña',
+            RepetirContra:'contraseña'
+        }
+    
+         )
     })
     it('Usuario debajo del rango',()=>{
         const resultado = validaUser({
-            Usuario:'sara',
+            Usuario:'sarah',
             Contraseña:'contra1236',
             RepetirContra:'contra1236'
             
@@ -53,7 +55,7 @@ describe('Prueba Validar Usuario',()=>{
             RepetirContra:'contra1236'
             
         })
-        expect (resultado).toEqual(['se registro el usuario'])
+        expect(resultado).toEqual(['Las contraseñas no coinciden'])
     })
     it('contraseña por debajo del rango',()=>{
         const resultado = validaUser({
@@ -75,15 +77,19 @@ describe('Prueba Validar Usuario',()=>{
     })
     it('repetir contraseña esta vacio',()=>{
         const resultado = validaUser({
-            Usuario:'',
+            Usuario:'Alberto',
             Contraseña:'contraseñaconma',
-            RepetirContra:''
+            RepetirContra:'contraseñaconma'
             
         })
-        expect (resultado).toEqual([
-            'se registro el usuario',
+        expect (resultado).toEqual({
+            Usuario:'Alberto',
+            Contraseña:'contraseñaconma',
+            RepetirContra:'contraseñaconma'
+
+        }
             
-        ])
+        )
     })
     
 })
